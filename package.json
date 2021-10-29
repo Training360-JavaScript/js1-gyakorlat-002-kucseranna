@@ -1,0 +1,21 @@
+{
+  "name": "str2-js1-002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test01 && npm run test02 && npm run test03",
+    "test01": "jest test-kvggcj/jest/test-01.spec.js",
+    "test02": "jest test-kvggcj/jest/test-02.spec.js",
+    "test03": "jest test-kvggcj/jest/test-03.spec.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^10.4.0",
+    "rewire": "^5.0.0"
+  }
+}
